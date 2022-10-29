@@ -1,0 +1,42 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Lora&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Lora', serif;
+}
+
+.navbar-light {
+    background-color: beige;
+}
+
+h1, h2 {
+    font-family: 'Londrina Solid', cursive;
+}
+
+/*.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus*/
+.btn-custom:hover {
+    border-color: #031d26 !important;
+    background-color: #031d26 !important;
+}
+.btn-custom {
+    background-color: #063647 !important;
+    color: white !important;
+}
